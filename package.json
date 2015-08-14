@@ -1,0 +1,14 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "dependencies": {
+    "browserify": "*",
+    "watchify": "*",
+    "uglify-js": "*"
+  },
+  "scripts": {
+    "build": "browserify src/main.js | node_modules/uglify-js/bin/uglifyjs > bin/interpreter.min.js -v",
+    "watch": "watchify src/main.js -o 'node_modules/uglify-js/bin/uglifyjs -cm > bin/interpreter.min.js' -v"
+  }
+}
