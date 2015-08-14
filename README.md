@@ -8,7 +8,7 @@ For further development see `package.json`
 
 
 ## Example usage
-Can be used as module in CommonJS environments. Or you can just download the minified source code in the /bin folder and load it from your page. In both ways you will have the variable `Interpreter` in global scope.
+Can be used as a module in CommonJS environments. Or you can just download the minified source code in the /bin folder and load it from your page. In both ways you will have the variable `Interpreter` in global scope.
 
 ```js
 var Interpreter = require("./interpreter")
