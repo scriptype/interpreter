@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "interpreter",
   "version": "0.0.1",
   "main": "src/main.js",
   "dependencies": {
